@@ -1,0 +1,24 @@
+apiVersion: imageoperator.eng.vmware.com/v1alpha1
+kind: Image
+metadata:
+  name: kubernetes-2022-02-26-14-45-31
+  namespace: image-operator
+spec:
+  items:
+  - imageId: ami-017086ed5251adb1a
+    region: ap-northeast-1
+  - imageId: ami-07b16c8484d0c2984
+    region: ap-southeast-1
+  - imageId: ami-0a8586621971bab63
+    region: ap-southeast-2
+  - imageId: ami-0827c6f98f755d131
+    region: ca-central-1
+  - imageId: ami-042b92803683437a2
+    region: eu-west-1
+  - imageId: ami-0ef9817117bdcb212
+    region: us-west-2
+  provider: aws
+  testImage:
+    imageId: ami-0ef9817117bdcb212
+    region: us-west-2
+  testSuite: kubernetes

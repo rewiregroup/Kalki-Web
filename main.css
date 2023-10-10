@@ -23,7 +23,7 @@ body { background-color: #f5f8f9; color: #333; cursor: default; font-family: ari
 /* Design */
 .header { position: fixed; top: 0; padding-top: 7px; left: 0; right: 0; background-color: #333; color: #fff; height: 35px; transition: transform 0.3s ease-in-out; z-index: 1000; }
 .header>div { display: flex; }
-.header button { display: none; opacity: 0.6; padding: 0; background: none; border: none; cursor: pointer; position: absolute; right: 20px; top: 0; height: 30px; width: 30px; background-size: 16px; background-repeat: no-repeat; background-position: 7px 7px; }
+.header button { display: none; opacity: 0.6; padding: 0; background: none; border: none; cursor: pointer; position: absolute; right: 20px; top: 0; height: 30px; width: 30px; background-size: 16px; background-repeat: no-repeat; background-position: 7px 13px; }
 .header button:hover { opacity: 1; }
 .header button svg { padding: 10px; fill: #ffffffb5; height: 20px; }
 .logo { color: #fff; margin-right: 100px; cursor: pointer; }

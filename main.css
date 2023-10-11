@@ -38,7 +38,7 @@ body { background-color: #f5f8f9; color: #333; cursor: default; font-family: ari
 .nav ul li a { font-size: 13px; color: #ffffffbf; display: block; padding: 7px 15px 10px 15px; cursor: pointer; }
 .nav ul li a:hover { color: #fff; }
 
-.product { background: #e3e3e3; padding: 60px 0 40px 0; }
+.product { background: #e3e3e3; padding: 80px 0 40px 0; }
 .presence { padding: 0 300px 0 0; }
 .presence>div { padding-right: 290px; animation: 1s ease-out moveUp; }
 .presence>div h1 { font-weight: bold; font-size: 40px; color: #000; }
@@ -137,7 +137,6 @@ body { background-color: #f5f8f9; color: #333; cursor: default; font-family: ari
 @media (max-width:1280px) {
   .box { padding: 0 20px; }
   .presence img { right: 20px; }
-  .product { padding: 60px 0 40px 0; }
   .gallery { right: 20px; }
 }
 

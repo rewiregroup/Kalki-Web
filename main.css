@@ -196,6 +196,10 @@ body { background-color: #f5f8f9; color: #333; cursor: default; font-family: ari
     .presence>div h1 {font-size: 30px;}
 }
 
+@media (max-width:380px) {
+  .value div {margin: 0 0 10px 0;}
+}
+
 /* Animations */
 @keyframes moveUp {
   from { transform: translateY(25px); opacity: 0; }
